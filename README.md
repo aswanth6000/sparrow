@@ -66,7 +66,7 @@ pnpm install
 ### 3. Run the desktop app in development mode
 
 ```bash
-pnpm --filter=desktop dev
+pnpm dev:desktop
 ```
 
 > This launches the React frontend via Vite and Tauri in dev mode.
@@ -76,7 +76,7 @@ pnpm --filter=desktop dev
 ## 📦 Build for Production
 
 ```bash
-pnpm --filter=desktop build
+pnpm build:desktop
 ```
 
 > This builds both React and the Tauri desktop binary for your OS.
